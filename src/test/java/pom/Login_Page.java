@@ -7,7 +7,8 @@ import org.openqa.selenium.support.FindBy;
 
 import generic.Base_Page;
 
-public class Login_Page extends Base_Page {
+public class Login_Page extends Base_Page 
+{
 
 	@FindBy(id="username")
 	private WebElement unameTxtField;
